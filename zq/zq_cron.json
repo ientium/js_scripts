@@ -135,6 +135,16 @@
       }
     },
     {
+     "name": "中青看点5分钟60分钟任务",
+      "type": "cron",
+      "time": "15 5 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://gitee.com/rockext/zhongqing/edit/main/zq/zq_5_60.js"
+      }
+    },
+    {
       "name": "中青自动提现",
       "type": "cron",
       "time": "25 10 * * *",
